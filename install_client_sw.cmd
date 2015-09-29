@@ -6,22 +6,22 @@
 :: set command=update
 set command=install
 
-choco %command% googlechrome
-choco %command% flashplayerplugin
-choco %command% flashplayeractivex
-choco %command% silverlight
-choco %command% javaruntime
-choco %command% notepadplusplus.%command%
-choco %command% 7zip.%command%
-choco %command% vlc
-#choco %command% svn
-choco %command% tortoisesvn
-choco %command% paint.net
+choco %command% googlechrome -y
+choco %command% flashplayerplugin -y
+choco %command% flashplayeractivex -y
+choco %command% silverlight -y
+choco %command% javaruntime -y
+choco %command% notepadplusplus.%command% -y
+choco %command% 7zip.%command% -y
+choco %command% vlc -y
+#choco %command% svn -y
+choco %command% tortoisesvn -y
+choco %command% paint.net -y
 :: choco %command% sublimetext:: 
-choco %command% visualstudiocode
-choco %command% jre8
-choco %command% gimp
-choco %command% cdburnerxp
-choco %command% sumatrapdf
-choco %command% googledrive
-choco %command% git
+choco %command% visualstudiocode -y
+choco %command% jre8 -y
+choco %command% gimp -y
+choco %command% cdburnerxp -y
+choco %command% sumatrapdf -y
+choco %command% googledrive -y
+choco %command% git -y
