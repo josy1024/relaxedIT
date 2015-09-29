@@ -1,8 +1,10 @@
+:: 1) setup chocolatey with powershell
 :: chocolatey powershell scripts setup
 :: iex ((new-object net.webclient).DownloadString('https://chocolatey.org/%command%.ps1'))
+:: 2) run this script to install or update
 
-command=update
-command=install
+:: set command=update
+set command=install
 
 choco %command% googlechrome
 choco %command% flashplayerplugin
