@@ -4,6 +4,7 @@
 :: 2) run this script to install or update
 
 :: set command=update
+:: update with: "cup all -y"
 set command=install
 
 choco %command% googlechrome -y
