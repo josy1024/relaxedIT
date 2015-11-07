@@ -16,6 +16,8 @@ choco %command% notepadplusplus.%command% -y
 choco %command% 7zip.%command% -y
 choco %command% vlc -y
 #choco %command% svn -y
+choco %command% quicktime -y
+# quicktime für goprostudi
 choco %command% tortoisesvn -y
 choco %command% paint.net -y
 :: choco %command% sublimetext:: 
