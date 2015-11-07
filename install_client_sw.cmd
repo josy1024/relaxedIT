@@ -13,7 +13,7 @@ choco %command% flashplayerplugin -y
 choco %command% flashplayeractivex -y
 choco %command% silverlight -y
 choco %command% javaruntime -y
-choco %command% notepadplusplus.%command% -y
+choco %command% notepadplusplus.install -y
 choco %command% 7zip.%command% -y
 choco %command% vlc -y
 #choco %command% svn -y
