@@ -1,7 +1,9 @@
 :: author: josef lahmer 24.11.2015
 
+:: qellen: http://blog.schreiter.info/how-to-rename-photos-to-exif-timestamp-the-easy-way/
 :: http://josy1024.blogspot.co.at/2015/10/exif-tool-oranizer-ordner-nach-jahr-und.html
-:: exiftool from: http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool-10.05.zip
+:: exiftool: http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool-10.05.zip
+
 
 :: move folders to destination-folder-\\store\share\folderarchive/%Y/%m
 
