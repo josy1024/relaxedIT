@@ -6,12 +6,12 @@ it scripts for selv-repairing systems
 checks if service up and running (process for service name exists)
 if not check filesystems read/write and remount if possible
 
-restart service
-(collect debug/diagnostic infos)
-if parameter reboot
-wait 60 seconds 
-check service again
-reboot me (init 6)
+* restart service
+* (collect debug/diagnostic infos)
+* if parameter reboot
+** wait 60 seconds 
+** check service again
+** reboot me (init 6)
 
 # helps on
 * file system readonly problems (fsck should fix permanently)
