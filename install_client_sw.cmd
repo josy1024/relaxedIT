@@ -29,3 +29,4 @@ choco %command% cdburnerxp -y
 choco %command% sumatrapdf -y
 choco %command% googledrive -y
 choco %command% git -y
+choco %command% etcher -y
