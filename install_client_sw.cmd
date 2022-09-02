@@ -20,6 +20,7 @@ choco %command% sumatrapdf -y
 choco %command% googledrive -y
 choco %command% git -y
 choco %command% etcher -y
+choco install libreoffice-fresh -y
 
 :: choco %command% cdburnerxp -y
 # quicktime für goprostudi
