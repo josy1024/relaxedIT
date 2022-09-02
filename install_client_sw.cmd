@@ -1,7 +1,7 @@
 :: 1) setup chocolatey with powershell
-:: chocolatey powershell scripts setup
-:: powershell  -ExecutionPolicy Bypass
-:: iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+
+PS> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
 :: 2) run this script to install or update
 
 :: set command=update
