@@ -9,24 +9,17 @@
 set command=install
 
 choco %command% googlechrome -y
-choco %command% flashplayerplugin -y
-choco %command% flashplayeractivex -y
-choco %command% silverlight -y
-choco %command% javaruntime -y
-choco %command% notepadplusplus.install -y
 choco %command% 7zip.%command% -y
 choco %command% vlc -y
-#choco %command% svn -y
 choco %command% quicktime -y
-# quicktime für goprostudi
-choco %command% tortoisesvn -y
 choco %command% paint.net -y
-:: choco %command% sublimetext:: 
 choco %command% visualstudiocode -y
 choco %command% jre8 -y
 choco %command% gimp -y
-choco %command% cdburnerxp -y
 choco %command% sumatrapdf -y
 choco %command% googledrive -y
 choco %command% git -y
 choco %command% etcher -y
+
+:: choco %command% cdburnerxp -y
+# quicktime für goprostudi
