@@ -9,7 +9,7 @@ PS> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointMa
 
 
 choco upgrade googlechrome -y
-choco upgrade 7zip.%command% -y
+choco upgrade 7zip.install -y
 choco upgrade vlc -y
 choco upgrade paint.net -y
 choco upgrade visualstudiocode -y
