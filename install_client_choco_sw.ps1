@@ -11,12 +11,8 @@ PS> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointMa
 choco upgrade googlechrome -y
 choco upgrade 7zip.install -y
 choco upgrade vlc -y
-choco upgrade paint.net -y
 choco upgrade visualstudiocode -y
-choco upgrade jre8 -y
 choco upgrade gimp -y
-choco upgrade sumatrapdf -y
-choco upgrade googledrive -y
 choco upgrade git -y
 choco upgrade etcher -y
 choco install libreoffice-fresh -y
@@ -24,3 +20,7 @@ choco install libreoffice-fresh -y
 # :: choco upgrade cdburnerxp -y
 # choco upgrade quicktime -y
 # quicktime für goprostudi
+
+choco upgrade sumatrapdf -y
+choco upgrade googledrive -y
+choco upgrade jre8 -y
