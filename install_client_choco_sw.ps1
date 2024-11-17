@@ -8,10 +8,11 @@ PS> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointMa
 #:: update with: "cup all -y"
 
 
+choco install powershell-core
+choco upgrade visualstudiocode -y
 choco upgrade googlechrome -y
 choco upgrade 7zip.install -y
 choco upgrade vlc -y
-choco upgrade visualstudiocode -y
 choco upgrade gimp -y
 choco upgrade git -y
 choco upgrade etcher -y
